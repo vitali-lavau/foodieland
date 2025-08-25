@@ -1,0 +1,16 @@
+.slide-x-enter-from,
+.slide-x-leave-to {
+  transform: translateX(-100%);
+  opacity: 0;
+}
+
+.slide-x-enter-to,
+.slide-x-leave-from {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.slide-x-enter-active,
+.slide-x-leave-active {
+  transition: transform 0.4s ease, opacity 0.4s ease;
+}
