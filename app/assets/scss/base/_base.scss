@@ -1,0 +1,29 @@
+@use "../abstracts/variables" as *;
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-base;
+}
+
+body {
+  position: relative;
+  font-family: $font-base;
+  color: $color-black;
+  background-color: $background-color;
+  line-height: $leading;
+}
+
+ul, ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: color .4s;
+}

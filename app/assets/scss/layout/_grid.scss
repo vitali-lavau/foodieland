@@ -1,0 +1,7 @@
+@use "../abstracts/functions" as *;
+
+.container {
+  max-width: to-rem(1248px);
+  padding: 0 to-rem(16px);
+  margin: 0 auto;
+}

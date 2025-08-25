@@ -1,0 +1,24 @@
+@use "variables" as *;
+@use "functions" as *;
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@mixin flex-row($x: stretch, $y: flex-start, $z: 0 ) {
+  display: flex;
+  flex-direction: row;
+  align-items: #{$x};
+  justify-content: #{$y};
+  gap: #{$z};
+}
+
+@mixin flex-col($x: stretch, $y: flex-start, $z: 0) {
+  display: flex;
+  flex-direction: column;
+  align-items: #{$x};
+  justify-content: #{$y};
+  gap: #{$z};
+}

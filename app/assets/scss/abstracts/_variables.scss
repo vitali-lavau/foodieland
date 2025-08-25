@@ -1,0 +1,11 @@
+// Colors
+$color-white: oklch(1 0 0);
+$color-black: oklch(0 0 0);
+$color-gray: oklch(0 0 0 / 10%);
+$color-primary: oklch(0.7003 0.1907 23.4);
+
+// Global variables
+$font-size-base: 16px;
+$font-base: 'Inter', sans-serif;
+$leading: 1.75;
+$background-color: $color-white;
